@@ -7,3 +7,4 @@ RUN     /nodejs/bin/npm install -g \
           grunt \
           grunt-cli \
           bower
+ENV    PATH /nodejs/bin:$PATH
